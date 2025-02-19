@@ -7,12 +7,15 @@ Authors: Sandro Mikautadze, Elio Samaha.
 """
 
 import os
+import random
 import json
 import subprocess
-from typing import Optional, Dict, Callable, Tuple
+from typing import Optional, Dict, Callable, Tuple, List
 from tqdm import tqdm
 from PIL import Image
+import torch
 from torch.utils.data import Dataset
+import torchvision.transforms as transforms
 
 #######################
 ### DATA EXTRACTION ###
@@ -27,6 +30,9 @@ def _load_json(json_path: str) -> Dict:
 
     Returns:
         Dict: Parsed JSON data as a dictionary.
+        
+    Raises:
+        RuntimeError: If the file is missing or not a valid JSON.
     """
     try:
         with open(json_path, "r") as f:
@@ -119,31 +125,59 @@ def process_all_splits(video_root: str, json_path: str, image_quality: int, outp
 ### DATASET OBJECT ###
 ######################
 
+class AddGaussianNoise:
+    """
+    Applies Gaussian noise to an image with a given standard deviation.
+    The noise is applied only to a fraction of images, based on `noisy_percentage`.
+
+    Args:
+        noise_stds (List[float]): List of standard deviations for noise levels.
+        noisy_percentage (float): Probability (0 to 1) of applying noise to an image.
+    """
+    def __init__(self, noise_stds=[0.1], noisy_percentage=0.5):
+        self.noise_stds = noise_stds  # List of noise standard deviations
+        self.noisy_percentage = noisy_percentage  # Probability of applying noise
+
+    def __call__(self, img: torch.Tensor) -> torch.Tensor:
+        """
+        Apply noise to an image.
+
+        Args:
+            img (torch.Tensor): Image tensor.
+
+        Returns:
+            torch.Tensor: Noisy or clean image.
+        """
+        # Ensure tensor format
+        if not isinstance(img, torch.Tensor):
+            img = transforms.ToTensor()(img)
+
+        # Apply noise only to a percentage of images
+        if random.random() < self.noisy_percentage:
+            noise_std = random.choice(self.noise_stds)  # Select a random noise level
+            noise = torch.randn_like(img) * noise_std
+            img = torch.clamp(img + noise, 0, 1)  # Keep values in valid range
+
+        return img
+
 class LensTypeDataset(Dataset):
     """
     A PyTorch dataset class for movie shots and their corresponding shot lens type labels.
     Labes are
     - 0 for Extreme Close-Up Shot (ECS)
     - 1 for Close-Up Shot (CS)
-    - 2 for Medium Shot (CS)
+    - 2 for Medium Shot (MS)
     - 3 for Full-Shot (FS)
     - 4 for Long-Shot (LS)
     
     It works for the dataset from "A Unified Framework for Shot Type Classification Based on Subject Centric Lens", ECCV 2020.
     """
 
-    def __init__(self, root_dir: str, split: str, transform: Optional[Callable] = None):
-        """
-        Initialize the dataset by loading image paths and labels.
-
-        Args:
-            root_dir (str): Root directory of the dataset (e.g., "./data").
-            split (str): One of "train", "val", or "test".
-            transform (Optional[Callable]): A function/transform that takes in an image 
-                                            and returns a transformed version.
-        """
+    def __init__(self, root_dir: str, split: str, transform: Optional[Callable] = None,
+                 noisy_percentage: float = 0.5, noise_stds: List[float] = [0.1]):
         self.split_dir = os.path.join(root_dir, split)
         self.transform = transform
+        self.add_noise = AddGaussianNoise(noise_stds, noisy_percentage)
         self.image_paths = []
         self.labels = []
 
@@ -168,7 +202,7 @@ class LensTypeDataset(Dataset):
         """
         return len(self.image_paths)
 
-    def __getitem__(self, idx: int) -> Tuple[Image.Image, int]:
+    def __getitem__(self, idx: int) -> Tuple[torch.Tensor, int]:
         """
         Retrieve an image and its corresponding label by index.
 
@@ -176,7 +210,7 @@ class LensTypeDataset(Dataset):
             idx (int): Index of the image.
 
         Returns:
-            Tuple[Image.Image, int]: The image and its corresponding label.
+            Tuple[Torch.Tensor, int]: The image and its corresponding label.
         """
         img_path = self.image_paths[idx]
         label = self.labels[idx]
@@ -185,5 +219,7 @@ class LensTypeDataset(Dataset):
 
         if self.transform:
             image = self.transform(image)
+            
+        image = self.add_noise(image)
 
         return image, label
