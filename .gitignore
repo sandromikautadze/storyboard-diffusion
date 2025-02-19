@@ -1,3 +1,11 @@
+# Ignore specific subdirectories in data/
+data/train/
+data/test/
+data/val/
+
+# Ensure the data folder itself is tracked
+!data/
+
 # VS code workspace
 *.code-workspace
 
