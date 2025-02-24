@@ -5,3 +5,9 @@ TODO (actually: TOIMPROVE)
     - Try different LR schedulers
     - Change way in which noise is added in training (aking to training of diffusion models)
     - Have a classifier with more shot types (e.g. angles, specific director styles, etc.)
+
+
+- Generation
+    - Use several api calls to generate more tokens and improve the llm generation of the prompts
+    - Once the image is generated add the option to generate a tiny video with the camera movement incorporated (Using Akira?)
+    - Add option to generate image with an angle and perspective. 
