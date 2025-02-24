@@ -1,0 +1,7 @@
+TODO (actually: TOIMPROVE)
+
+- Lens classifier
+    - Try using label smoothing as hyperparameter 
+    - Try different LR schedulers
+    - Change way in which noise is added in training (aking to training of diffusion models)
+    - Have a classifier with more shot types (e.g. angles, specific director styles, etc.)
