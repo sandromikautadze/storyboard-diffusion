@@ -1,3 +1,13 @@
+"""
+models.py
+
+This module defines the StableDiffusionPipeline models for the Multi-Prompt CFG.
+
+Authors: Sandro Mikautadze, Elio Samaha.
+"""
+
+
+
 import torch
 from diffusers import StableDiffusionPipeline
 

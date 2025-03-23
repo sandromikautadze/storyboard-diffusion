@@ -1,3 +1,13 @@
+"""
+storyboard_generator.py
+
+This module defines the StoryboardGenerator class for generating storyboard scenes.
+
+Authors: Sandro Mikautadze, Elio Samaha.
+"""
+
+
+
 import os
 import json
 import logging

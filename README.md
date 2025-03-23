@@ -4,9 +4,11 @@
 
 ## **Repo Structure**
 
-- `src/` contains the core modules and functions used in this work.
+In alphabetical order
+
 - `additional_experiments/` contains code for the other approaches we adopted, but failed. We leave them for future work.
-- `poster/` contains images generated for the poster.
+- `poster/` contains images generated used for the poster session.
+- `src/` contains the core modules and functions used in this work.
 
 ## Requirements
 TODO

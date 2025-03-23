@@ -1,3 +1,12 @@
+"""
+prompt_scheme.py
+
+This module defines the Pydantic models for the prompt scheme used to get the JSON from the LLM.
+
+Authors: Sandro Mikautadze, Elio Samaha.
+"""
+
+
 from pydantic import BaseModel
 from typing import List
 
