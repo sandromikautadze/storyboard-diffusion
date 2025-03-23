@@ -234,11 +234,11 @@ She starts to BLOW THE WHISTLE with all the strength in her body. Its sound slap
 }
 
 movie_scripts = {
-    "godfather": godfather_offer_scene,
+    "the godfather": godfather_offer_scene,
     "titanic": titanic_finale_scene,
 }
 
-def get_movie_script(movie_title: str) -> Tuple[str, Dict[str, Dict[str, str]]]:
+def get_movie_data(movie_title: str) -> Tuple[str, Dict[str, Dict[str, str]]]:
     """
     Get the script and character details for a given movie title
     """
