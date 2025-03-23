@@ -1,7 +1,7 @@
 # Ignore specific subdirectories in data/
-data/train/
-data/test/
-data/val/
+additional_experiments/data/train/
+additional_experiments/data/test/
+additional_experiments/data/val/
 
 # Ensure the data folder itself is tracked
 !data/
