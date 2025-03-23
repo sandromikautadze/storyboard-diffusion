@@ -1,4 +1,4 @@
-# Storyboard Generator with Diffusion Models
+# Storyboard Generation with Diffusion Models
 
 **Authors**: Sandro Mikautadze, Elio Samaha
 

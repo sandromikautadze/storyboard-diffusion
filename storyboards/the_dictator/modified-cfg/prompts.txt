@@ -1,0 +1,44 @@
+Scene 1 Subprompts:
+  Subprompt 1 (weight 0.9): Supreme Leader Aladeen: late 30s to early 40s, thick, full beard, average build, wearing military uniform with ornate decorations, with sunglasses, military medals
+  Subprompt 2 (weight 2): rough b&w pencil sketch, simple sketch lines, minimal shading, rough hatching, draft-style, J.C. Leyendecker style
+  Subprompt 3 (weight 1.0): Military briefing room, daytime. Dimly lit, with a large screen behind the Supreme Leader and rows of high-tech equipment.
+  Subprompt 4 (weight 1.2): Close-Up, Front View
+  Subprompt 5 (weight 1.5): Supreme Leader Aladeen's face fills the frame, thick beard and sunglasses visible. His expression shows a mix of amusement and seriousness.
+
+Scene 2 Subprompts:
+  Subprompt 1 (weight 0.9): Supreme Leader Aladeen: late 30s to early 40s, thick, full beard, average build, wearing military uniform with ornate decorations, with sunglasses, military medals
+  Subprompt 2 (weight 0.9): Nuclear Nadal: late 40s, mustache, slim, wearing white lab coat over formal attire, with glasses, clipboard
+  Subprompt 3 (weight 2): rough b&w pencil sketch, simple sketch lines, minimal shading, rough hatching, draft-style, J.C. Leyendecker style
+  Subprompt 4 (weight 1.0): Military briefing room, daytime. Dimly lit, with a large screen behind the Supreme Leader and rows of high-tech equipment.
+  Subprompt 5 (weight 1.2): Two-Shot, Front View
+  Subprompt 6 (weight 1.5): Supreme Leader Aladeen and Nuclear Nadal stand facing each other, the Supreme Leader holding a pointer. Nadal looks puzzled, clipboard in hand.
+
+Scene 3 Subprompts:
+  Subprompt 1 (weight 0.9): Nuclear Nadal: late 40s, mustache, slim, wearing white lab coat over formal attire, with glasses, clipboard
+  Subprompt 2 (weight 2): rough b&w pencil sketch, simple sketch lines, minimal shading, rough hatching, draft-style, J.C. Leyendecker style
+  Subprompt 3 (weight 1.0): Military briefing room, daytime. Dimly lit, with a large screen behind the Supreme Leader and rows of high-tech equipment.
+  Subprompt 4 (weight 1.2): Medium Close-Up, Three-Quarters View
+  Subprompt 5 (weight 1.5): Nuclear Nadal's face fills the frame, mustache and glasses visible. His expression shows concern and frustration.
+
+Scene 4 Subprompts:
+  Subprompt 1 (weight 0.9): Supreme Leader Aladeen: late 30s to early 40s, thick, full beard, average build, wearing military uniform with ornate decorations, with sunglasses, military medals
+  Subprompt 2 (weight 2): rough b&w pencil sketch, simple sketch lines, minimal shading, rough hatching, draft-style, J.C. Leyendecker style
+  Subprompt 3 (weight 1.0): Military briefing room, daytime. Dimly lit, with a large screen behind the Supreme Leader and rows of high-tech equipment.
+  Subprompt 4 (weight 1.2): Close-Up, Front View
+  Subprompt 5 (weight 1.5): Supreme Leader Aladeen's face fills the frame, a determined look on his face. He says 'kaboom' with a hint of excitement.
+
+Scene 5 Subprompts:
+  Subprompt 1 (weight 0.9): Supreme Leader Aladeen: late 30s to early 40s, thick, full beard, average build, wearing military uniform with ornate decorations, with sunglasses, military medals
+  Subprompt 2 (weight 0.9): Nuclear Nadal: late 40s, mustache, slim, wearing white lab coat over formal attire, with glasses, clipboard
+  Subprompt 3 (weight 2): rough b&w pencil sketch, simple sketch lines, minimal shading, rough hatching, draft-style, J.C. Leyendecker style
+  Subprompt 4 (weight 1.0): Military briefing room, daytime. Dimly lit, with a large screen behind the Supreme Leader and rows of high-tech equipment.
+  Subprompt 5 (weight 1.2): Medium Shot, Front View
+  Subprompt 6 (weight 1.5): Supreme Leader Aladeen and Nuclear Nadal stand facing each other, the Supreme Leader's expression changing from amusement to seriousness. Nadal looks exasperated, clipboard in hand.
+
+Scene 6 Subprompts:
+  Subprompt 1 (weight 0.9): Supreme Leader Aladeen: late 30s to early 40s, thick, full beard, average build, wearing military uniform with ornate decorations, with sunglasses, military medals
+  Subprompt 2 (weight 0.9): Nuclear Nadal: late 40s, mustache, slim, wearing white lab coat over formal attire, with glasses, clipboard
+  Subprompt 3 (weight 2): rough b&w pencil sketch, simple sketch lines, minimal shading, rough hatching, draft-style, J.C. Leyendecker style
+  Subprompt 4 (weight 1.0): Military briefing room, daytime. Dimly lit, with a large screen behind the Supreme Leader and rows of high-tech equipment.
+  Subprompt 5 (weight 1.2): Over-the-Shoulder Shot, Profile View
+  Subprompt 6 (weight 1.5): Camera over the Supreme Leader's shoulder, facing Nuclear Nadal. The Supreme Leader's profile and the rows of high-tech equipment visible in the background. Nadal's expression shows frustration and concern.

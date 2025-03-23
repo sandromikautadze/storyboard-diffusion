@@ -1,0 +1,70 @@
+Scene 1 Subprompts:
+  Subprompt 1 (weight 0.9): Rose: American, early 20s, female, long, dark brown, fit, wearing dress, all wet
+  Subprompt 2 (weight 2): rough b&w pencil sketch, simple sketch lines, minimal shading, rough hatching, draft-style, J.C. Leyendecker style
+  Subprompt 3 (weight 1.0): EXT. OCEAN 291 - night. Black water with stars reflecting in the surface.
+  Subprompt 4 (weight 1.2): Point-of-View Shot, Profile View
+  Subprompt 5 (weight 1.5): Rose stares upwards, hands locked with Jack's, reflecting on stars above.
+
+Scene 2 Subprompts:
+  Subprompt 1 (weight 0.9): Rose: American, early 20s, female, long, dark brown, fit, wearing dress, all wet
+  Subprompt 2 (weight 2): rough b&w pencil sketch, simple sketch lines, minimal shading, rough hatching, draft-style, J.C. Leyendecker style
+  Subprompt 3 (weight 1.0): EXT. OCEAN 291 - night. Black water with stars reflecting in the surface.
+  Subprompt 4 (weight 1.2): Close-Up, Front View
+  Subprompt 5 (weight 1.5): Rose's pale face and eyes closed as she sings softly.
+
+Scene 3 Subprompts:
+  Subprompt 1 (weight 0.9): Rose: American, early 20s, female, long, dark brown, fit, wearing dress, all wet
+  Subprompt 2 (weight 2): rough b&w pencil sketch, simple sketch lines, minimal shading, rough hatching, draft-style, J.C. Leyendecker style
+  Subprompt 3 (weight 1.0): EXT. OCEAN 291 - night. Black water with stars reflecting in the surface.
+  Subprompt 4 (weight 1.2): Point-of-View Shot, Profile View
+  Subprompt 5 (weight 1.5): Rose sees the stars in close-up, with Milky Way visible from horizon to horizon.
+
+Scene 4 Subprompts:
+  Subprompt 1 (weight 0.9): Rose: American, early 20s, female, long, dark brown, fit, wearing dress, all wet
+  Subprompt 2 (weight 2): rough b&w pencil sketch, simple sketch lines, minimal shading, rough hatching, draft-style, J.C. Leyendecker style
+  Subprompt 3 (weight 1.0): EXT. OCEAN 291 - night. Black water with stars reflecting in the surface.
+  Subprompt 4 (weight 1.2): Medium Close-Up, Front View
+  Subprompt 5 (weight 1.5): Rose's face contorted in pain, her breathing shallow.
+
+Scene 5 Subprompts:
+  Subprompt 1 (weight 0.9): Rose: American, early 20s, female, long, dark brown, fit, wearing dress, all wet
+  Subprompt 2 (weight 0.9): Jack: American, early 20s, male, medium length, blonde, clean shaven, fit, wearing shirt, all wet
+  Subprompt 3 (weight 2): rough b&w pencil sketch, simple sketch lines, minimal shading, rough hatching, draft-style, J.C. Leyendecker style
+  Subprompt 4 (weight 1.0): EXT. OCEAN 291 - night. Black water with stars reflecting in the surface.
+  Subprompt 5 (weight 1.2): Two-Shot, Front View
+  Subprompt 6 (weight 1.5): Rose reaches out to Jack, his face frozen in frost, her hand locked to his.
+
+Scene 6 Subprompts:
+  Subprompt 1 (weight 0.9): Rose: American, early 20s, female, long, dark brown, fit, wearing dress, all wet
+  Subprompt 2 (weight 2): rough b&w pencil sketch, simple sketch lines, minimal shading, rough hatching, draft-style, J.C. Leyendecker style
+  Subprompt 3 (weight 1.0): EXT. OCEAN 291 - night. Black water with stars reflecting in the surface.
+  Subprompt 4 (weight 1.2): Point-of-View Shot, Profile View
+  Subprompt 5 (weight 1.5): Rose sees the distant boat in slow motion, its oars lifting out of the water, voices of men sounding slow and distorted.
+
+Scene 7 Subprompts:
+  Subprompt 1 (weight 0.9): Rose: American, early 20s, female, long, dark brown, fit, wearing dress, all wet
+  Subprompt 2 (weight 2): rough b&w pencil sketch, simple sketch lines, minimal shading, rough hatching, draft-style, J.C. Leyendecker style
+  Subprompt 3 (weight 1.0): EXT. OCEAN 291 - night. Black water with stars reflecting in the surface.
+  Subprompt 4 (weight 1.2): Medium Close-Up, Front View
+  Subprompt 5 (weight 1.5): Rose's face, weak and hopeless, looking at Jack's frozen face.
+
+Scene 8 Subprompts:
+  Subprompt 1 (weight 0.9): Rose: American, early 20s, female, long, dark brown, fit, wearing dress, all wet
+  Subprompt 2 (weight 2): rough b&w pencil sketch, simple sketch lines, minimal shading, rough hatching, draft-style, J.C. Leyendecker style
+  Subprompt 3 (weight 1.0): EXT. OCEAN 291 - night. Black water with stars reflecting in the surface.
+  Subprompt 4 (weight 1.2): Point-of-View Shot, Profile View
+  Subprompt 5 (weight 1.5): Rose sees the boat in the distance, its torch light a star impossibly far away, she tries to cry out.
+
+Scene 9 Subprompts:
+  Subprompt 1 (weight 0.9): Rose: American, early 20s, female, long, dark brown, fit, wearing dress, all wet
+  Subprompt 2 (weight 2): rough b&w pencil sketch, simple sketch lines, minimal shading, rough hatching, draft-style, J.C. Leyendecker style
+  Subprompt 3 (weight 1.0): EXT. OCEAN 291 - night. Black water with stars reflecting in the surface.
+  Subprompt 4 (weight 1.2): Close-Up, Front View
+  Subprompt 5 (weight 1.5): Rose's face filled with determination as she breaks away from Jack's frozen hand.
+
+Scene 10 Subprompts:
+  Subprompt 1 (weight 0.9): Rose: American, early 20s, female, long, dark brown, fit, wearing dress, all wet
+  Subprompt 2 (weight 2): rough b&w pencil sketch, simple sketch lines, minimal shading, rough hatching, draft-style, J.C. Leyendecker style
+  Subprompt 3 (weight 1.0): EXT. OCEAN 291 - night. Black water with stars reflecting in the surface.
+  Subprompt 4 (weight 1.2): Medium Long Shot, Front View
+  Subprompt 5 (weight 1.5): Rose plunges into icy water, grabbing a whistle, blowing it with all her strength.
