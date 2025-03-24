@@ -2,10 +2,6 @@
 
 **Authors**: Sandro Mikautadze, Elio Samaha
 
-# Summary
-
-TODO
-
 ## **Repo Structure**
 
 In alphabetical order
@@ -14,7 +10,13 @@ In alphabetical order
 - `poster/` contains images generated used for the poster session.
 - `src/` contains the core modules and functions used in this work.
 - `storyboards/` contains the generated storyboards, grouped by movie and generation format.
-- `generate_storyboard.ipynb` contains the code to generate the storyboard. **Use that to try our pipeline**.
+- `generate_storyboard.ipynb` contains the code to generate the storyboards. **Use that to try our pipeline**.
 
-## Requirements
-TODO
+## How to run 
+
+Create an `.env` file adding the API key from [TogetherAI](https://www.together.ai/) (it's free)
+```bash
+TOGETHER_API_KEY = your_api_aky
+``` 
+
+Open the `generate_storyboard.ipynb` file and follow the instructions.
