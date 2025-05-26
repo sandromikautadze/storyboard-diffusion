@@ -2,8 +2,7 @@
 
 **Authors**: Sandro Mikautadze, Elio Samaha
 
-<video src="assets/demo_mikautadze_samaha.mp4" controls="controls"></video>
-
+https://github.com/user-attachments/assets/7bbf1c93-0d78-4368-ba4b-aa7b7737f13e
 
 ## **Repo Structure**
 
