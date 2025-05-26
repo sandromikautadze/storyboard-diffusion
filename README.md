@@ -2,7 +2,7 @@
 
 **Authors**: Sandro Mikautadze, Elio Samaha
 
-<video src="assets/demo_mikautadze_samaha.mp4" control></video>
+<video src="assets/demo_mikautadze_samaha.mp4" controls="controls"></video>
 
 
 ## **Repo Structure**
