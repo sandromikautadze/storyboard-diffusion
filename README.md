@@ -2,6 +2,9 @@
 
 **Authors**: Sandro Mikautadze, Elio Samaha
 
+<video src="assets/demo_mikautadze_samaha.mp4" control></video>
+
+
 ## **Repo Structure**
 
 In alphabetical order
@@ -11,6 +14,7 @@ In alphabetical order
 - `src/` contains the core modules and functions used in this work.
 - `storyboards/` contains the generated storyboards, grouped by movie and generation format.
 - `generate_storyboard.ipynb` contains the code to generate the storyboards. **Use that to try our pipeline**.
+- `report_mikautadze_samaha.pdf` contains the report
 
 ## How to run 
 
